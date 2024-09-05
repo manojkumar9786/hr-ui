@@ -55,6 +55,7 @@ const data = [
 const Home = () => {
   const [count, setCount] = useState(10);
   const [openForm, setOpenForm] = useState(false);
+  
   return (
     <div className="bg-[#F9F9F9] p-5 relative">
       <div className="flex justify-between">
@@ -102,9 +103,9 @@ const Home = () => {
               <select
                 name=""
                 id="series"
-                className="w-[100px] text-[12px] outline-none bg-[#F5F5F5] text-[#000] text-sm border-none rounded-md"
+                className="w-[100px] font-normal outline-none bg-[#F5F5F5] text-[#000] text-sm border-none rounded-md"
               >
-                <option value="" className="w-20">
+                <option value="" className="w-20 text-xs">
                   All
                 </option>
               </select>
@@ -151,35 +152,35 @@ const Home = () => {
                   <div className="flex justify-between items-center">
                     <div className="flex items-center space-x-3">
                       <div className="border rounded-full bg-[#F5F5F5] text-[#707070]">
-                        <TiTick size={9} />
+                        <TiTick className="w-[10px] h-[8px]" />
                       </div>
                       <p className="text-[14px] font-normal">Employee Name</p>
                     </div>
-                    <LuChevronsUpDown />
+                    <LuChevronsUpDown className="text-[#92929D]" />
                   </div>
                 </th>
                 <th className="py-2 px-4 border-r">
                   <div className="flex items-center gap-5">
-                    <p className="font-normal">Status</p>
-                    <LuChevronsUpDown />
+                    <p className="text-sm font-normal">Status</p>
+                    <LuChevronsUpDown className="text-[#92929D]" />
                   </div>
                 </th>
                 <th className="py-2 px-4 border-r">
                   <div className="flex items-center gap-5">
-                    <p className="font-normal">Employee ID</p>
-                    <LuChevronsUpDown />
+                    <p className="text-sm font-normal">Employee ID</p>
+                    <LuChevronsUpDown className="text-[#92929D]" />
                   </div>
                 </th>
                 <th className="py-2 px-4 border-r">
                   <div className="flex items-center gap-5">
-                    <p className="font-normal">From Date</p>
-                    <LuChevronsUpDown />
+                    <p className="text-sm font-normal">From Date</p>
+                    <LuChevronsUpDown className="text-[#92929D]" />
                   </div>
                 </th>
                 <th className="py-2 px-4 border-r">
                   <div className="flex items-center gap-5">
-                    <p className="font-normal">Total Leave Days</p>
-                    <LuChevronsUpDown />
+                    <p className="text-sm font-normal">Total Leave Days</p>
+                    <LuChevronsUpDown className="text-[#92929D]" />
                   </div>
                 </th>
                 <th className="py-2 px-4 border-r text-[#737373]">
