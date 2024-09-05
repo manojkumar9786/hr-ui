@@ -17,7 +17,6 @@ const data = [
   {
     name: "James",
     status: "Pending",
-    statusColor: "text-orange-500",
     employeeId: "TT-2024-008",
     fromDate: "30-05-2024",
     leaveDays: "3 days",
@@ -27,32 +26,29 @@ const data = [
   {
     name: "James",
     status: "Approved",
-    statusColor: "text-green-500",
     employeeId: "TT-2024-008",
     fromDate: "30-05-2024",
     leaveDays: "3 days",
     totalDays: "8 d",
-    avatar: "./emp.png", // Replace with actual image URL
+    avatar: "./emp.png",
   },
   {
     name: "James",
     status: "Approved",
-    statusColor: "text-green-500",
     employeeId: "TT-2024-008",
     fromDate: "30-05-2024",
     leaveDays: "3 days",
     totalDays: "8 d",
-    avatar: "./emp.png", // Replace with actual image URL
+    avatar: "./emp.png",
   },
   {
     name: "James",
     status: "Approved",
-    statusColor: "text-green-500",
     employeeId: "TT-2024-008",
     fromDate: "30-05-2024",
     leaveDays: "3 days",
     totalDays: "8 d",
-    avatar: "./emp.png", // Replace with actual image URL
+    avatar: "./emp.png",
   },
 ];
 
